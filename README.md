@@ -1,17 +1,16 @@
 # Random User API Performance Test
 
-This is a Jmeter project, where performance of random-user api is tested.
+This is a Jmeter project, where performance of [random-user](https://random-data-api.com/api/v2/users) api is tested.
 
 ---
-### API Documentation
-- [Dmoney API Test](https://documenter.getpostman.com/view/12316264/2s8ZDeUKKL)
+
 
 
 
 ### Tasks
 - To find actual TPS if 120000 user can give load for 12 hour
 - To perform load test
-- To find bottleneck/stress test point(At which point the system starts to show 1% error) 
+- To find bottleneck/stress test point (At which point the system starts to show 1% error) 
 
 
 ### Prerequisites
@@ -19,8 +18,8 @@ This is a Jmeter project, where performance of random-user api is tested.
 
 
 
-
-
 ### Load Test and TPS Breakdwon
-![report](Screenshots/report.png)
+![LoadTest](Screenshots/LoadTest/loadTest.png)
 
+### Bottleneck / Stress test point
+![StressTest](Screenshots/StressTest/StressTest.png)
